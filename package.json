@@ -12,6 +12,7 @@
     "lodash": "^4.17.5",
     "mime": "^2.2.0",
     "moment": "^2.21.0",
+    "request": "^2.87.0",
     "simple-markdown": "^0.3.2",
     "telegraf": "^3.21.2"
   },
