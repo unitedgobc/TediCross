@@ -26,8 +26,8 @@ const discordSetup = require("./lib/discord2telegram/setup");
  *************/
 
 // Migrate the settings from JSON to YAML
-const settingsPathJSON = path.join(__dirname, "settings.json");
-const settingsPathYAML = path.join(__dirname, "settings.yaml");
+const settingsPathJSON = path.join("/config", "settings.json");
+const settingsPathYAML = path.join("/config", "settings.yaml");
 migrateSettingsToYAML(settingsPathJSON, settingsPathYAML);
 
 // Get the settings
